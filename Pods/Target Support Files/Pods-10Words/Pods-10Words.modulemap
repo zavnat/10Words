@@ -1,6 +1,0 @@
-framework module Pods_10Words {
-  umbrella header "Pods-10Words-umbrella.h"
-
-  export *
-  module * { export * }
-}

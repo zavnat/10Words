@@ -1,7 +1,7 @@
 
 platform :ios, '9.0'
 
-target '10Words' do
+target 'Weather' do
  
   use_frameworks!
 

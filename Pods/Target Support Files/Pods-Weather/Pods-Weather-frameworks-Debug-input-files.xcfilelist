@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-10Words/Pods-10Words-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
 ${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
