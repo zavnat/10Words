@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,11 +13,20 @@
 		843A089D25234E4E00A531A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A089B25234E4E00A531A9 /* Main.storyboard */; };
 		843A089F25234E5900A531A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843A089E25234E5900A531A9 /* Assets.xcassets */; };
 		843A08A225234E5900A531A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A08A025234E5900A531A9 /* LaunchScreen.storyboard */; };
-		843A08AA25234ECB00A531A9 /* WordServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A08A925234ECB00A531A9 /* WordServise.swift */; };
-		843A08AC252354E600A531A9 /* ListWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A08AB252354E600A531A9 /* ListWordsViewModel.swift */; };
+		843A08AC252354E600A531A9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A08AB252354E600A531A9 /* ViewModel.swift */; };
+		843A08B225248A4E00A531A9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A08B125248A4E00A531A9 /* AppCoordinator.swift */; };
+		843A08B42524952900A531A9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A08B32524952900A531A9 /* Protocols.swift */; };
+		843A08B72524B30B00A531A9 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A08B62524B30B00A531A9 /* Weather.swift */; };
+		843A08B92524E7CD00A531A9 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A08B82524E7CD00A531A9 /* WeatherViewModel.swift */; };
+		843A08BB2525DAC900A531A9 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A08BA2525DAC900A531A9 /* WeatherModel.swift */; };
+		84D1CF9225263293007C73DB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1CF9125263293007C73DB /* TableViewCell.swift */; };
+		84D1D033252F4348007C73DB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1D032252F4348007C73DB /* Service.swift */; };
+		B216FF8E35E5703182A0D072 /* Pods_10Words.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8569E7CDBA4847D8373DA03A /* Pods_10Words.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06B34DD64F6D412AF0483813 /* Pods-10Words.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-10Words.release.xcconfig"; path = "Target Support Files/Pods-10Words/Pods-10Words.release.xcconfig"; sourceTree = "<group>"; };
+		48C488060B4E6E57775FA7BD /* Pods-10Words.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-10Words.debug.xcconfig"; path = "Target Support Files/Pods-10Words/Pods-10Words.debug.xcconfig"; sourceTree = "<group>"; };
 		843A089225234E4E00A531A9 /* 10Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10Words.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843A089525234E4E00A531A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843A089725234E4E00A531A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +35,15 @@
 		843A089E25234E5900A531A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843A08A125234E5900A531A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843A08A325234E5900A531A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		843A08A925234ECB00A531A9 /* WordServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordServise.swift; sourceTree = "<group>"; };
-		843A08AB252354E600A531A9 /* ListWordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWordsViewModel.swift; sourceTree = "<group>"; };
+		843A08AB252354E600A531A9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		843A08B125248A4E00A531A9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		843A08B32524952900A531A9 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		843A08B62524B30B00A531A9 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		843A08B82524E7CD00A531A9 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		843A08BA2525DAC900A531A9 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		84D1CF9125263293007C73DB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		84D1D032252F4348007C73DB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8569E7CDBA4847D8373DA03A /* Pods_10Words.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_10Words.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B216FF8E35E5703182A0D072 /* Pods_10Words.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF89C45879404219AD9CDFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8569E7CDBA4847D8373DA03A /* Pods_10Words.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		843A088925234E4E00A531A9 = {
 			isa = PBXGroup;
 			children = (
 				843A089425234E4E00A531A9 /* 10Words */,
 				843A089325234E4E00A531A9 /* Products */,
+				EA46D64C2B193CAEBA94CD0A /* Pods */,
+				1AF89C45879404219AD9CDFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				843A089525234E4E00A531A9 /* AppDelegate.swift */,
+				843A08B125248A4E00A531A9 /* AppCoordinator.swift */,
+				843A08B32524952900A531A9 /* Protocols.swift */,
 				843A089725234E4E00A531A9 /* SceneDelegate.swift */,
 				843A08AD2523572B00A531A9 /* View */,
 				843A08AE2523573A00A531A9 /* ViewModel */,
-				843A08A925234ECB00A531A9 /* WordServise.swift */,
+				843A08B525249D1600A531A9 /* Models */,
 				843A089E25234E5900A531A9 /* Assets.xcassets */,
 				843A08A025234E5900A531A9 /* LaunchScreen.storyboard */,
 				843A08A325234E5900A531A9 /* Info.plist */,
@@ -77,6 +106,7 @@
 			children = (
 				843A089925234E4E00A531A9 /* ViewController.swift */,
 				843A089B25234E4E00A531A9 /* Main.storyboard */,
+				84D1CF9125263293007C73DB /* TableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -84,9 +114,29 @@
 		843A08AE2523573A00A531A9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				843A08AB252354E600A531A9 /* ListWordsViewModel.swift */,
+				843A08AB252354E600A531A9 /* ViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		843A08B525249D1600A531A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84D1D032252F4348007C73DB /* Service.swift */,
+				843A08BA2525DAC900A531A9 /* WeatherModel.swift */,
+				843A08B62524B30B00A531A9 /* Weather.swift */,
+				843A08B82524E7CD00A531A9 /* WeatherViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA46D64C2B193CAEBA94CD0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48C488060B4E6E57775FA7BD /* Pods-10Words.debug.xcconfig */,
+				06B34DD64F6D412AF0483813 /* Pods-10Words.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843A08A625234E5900A531A9 /* Build configuration list for PBXNativeTarget "10Words" */;
 			buildPhases = (
+				423C832F1F937F7BA84A95D5 /* [CP] Check Pods Manifest.lock */,
 				843A088E25234E4E00A531A9 /* Sources */,
 				843A088F25234E4E00A531A9 /* Frameworks */,
 				843A089025234E4E00A531A9 /* Resources */,
+				3DFCA2F1E1CEF67DED4E3B33 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,15 +207,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DFCA2F1E1CEF67DED4E3B33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-10Words/Pods-10Words-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-10Words/Pods-10Words-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-10Words/Pods-10Words-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		423C832F1F937F7BA84A95D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-10Words-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		843A088E25234E4E00A531A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843A08AC252354E600A531A9 /* ListWordsViewModel.swift in Sources */,
+				843A08B225248A4E00A531A9 /* AppCoordinator.swift in Sources */,
+				843A08B92524E7CD00A531A9 /* WeatherViewModel.swift in Sources */,
+				843A08AC252354E600A531A9 /* ViewModel.swift in Sources */,
+				843A08B42524952900A531A9 /* Protocols.swift in Sources */,
 				843A089A25234E4E00A531A9 /* ViewController.swift in Sources */,
-				843A08AA25234ECB00A531A9 /* WordServise.swift in Sources */,
+				84D1D033252F4348007C73DB /* Service.swift in Sources */,
+				84D1CF9225263293007C73DB /* TableViewCell.swift in Sources */,
+				843A08BB2525DAC900A531A9 /* WeatherModel.swift in Sources */,
 				843A089625234E4E00A531A9 /* AppDelegate.swift in Sources */,
+				843A08B72524B30B00A531A9 /* Weather.swift in Sources */,
 				843A089825234E4E00A531A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +406,7 @@
 		};
 		843A08A725234E5900A531A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C488060B4E6E57775FA7BD /* Pods-10Words.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +425,7 @@
 		};
 		843A08A825234E5900A531A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B34DD64F6D412AF0483813 /* Pods-10Words.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
